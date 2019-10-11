@@ -1,0 +1,75 @@
+body{
+	background-color: #232323;
+	margin : 0;
+	font-family: 'Dancing Script', cursive;
+	/*font-family: 'Pacifico', cursive;*/
+}
+/**/
+.square{
+	width: 30%;
+	background : #000680;
+	float: left;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	border-radius: 15%;
+	transition : 0.6s;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: #000680 ;
+	margin :0;
+	/*font-weight: normal;*/
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 20px 0;
+}
+
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	background : blue;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border: none;
+	background : none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #000680;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+
+#messege{
+	display: inline-block;
+	width:20%;
+}
+
+#stripe{
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
